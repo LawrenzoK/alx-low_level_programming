@@ -12,7 +12,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() % 201  100;
+	n = rand() % 201 - 100;
 	printf(" %d\n", n);
 	if (n > 0)
 	{
