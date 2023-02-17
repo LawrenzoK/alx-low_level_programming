@@ -7,17 +7,17 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() % 201 - 100;
-	printf("The number is: %d\n", n);
+	n = rand() % 100 + 1;
+	printf(" %d\n", n);
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("positive");
 	} else if (n < 0)
 	{
-		printf("is negative\n");
+		printf("is negative");
 	} else
 	{
-		printf("is zero\n");
+		printf("zero");
 	}
 	printf("\n");
 	return (0);
