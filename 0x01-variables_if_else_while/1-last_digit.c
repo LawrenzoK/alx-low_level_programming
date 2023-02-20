@@ -20,16 +20,19 @@ int main(void)
 	{
 		last_digit = -n % 10;
 		printf("-%d and is ", last_digit);
-	} else {
+	} else
+	{
 		last_digit = n % 10;
 		printf("%d and is ", last_digit);
 	}
 	if (last_digit > 5)
 	{
 		printf("greater than 5\n");
-	} else if (last_digit == 0) {
+	} else if (last_digit == 0)
+	{
 		printf("0\n");
-	} else {
+	} else
+	{
 		printf("less than 6 and not 0\n");
 	}
 	return (0);
