@@ -6,12 +6,16 @@
  */
 int main(void)
 {
-	int num;
-	char hex[] = "123456789abcdef";
+	int i;
+	char c;
 
-	for (num = 0; num >= 16; num++)
+	for (i = 0; i < 16; i++)
 	{
-		putchar(hex[num]);
+		if (i < 10)
+			c = i + '0';
+		else
+			c = i - 10 + 'a';
+		putchar(c);
 	}
 	putchar('\n');
 
