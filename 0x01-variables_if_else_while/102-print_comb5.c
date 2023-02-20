@@ -15,7 +15,7 @@ int main(void)
 			int firstDigit_i = i / 10;
 			int secondDigit_1 = i % 10;
 			int firstDigit_j = j / 10;
-			int secondFigit_j = j % 10;
+			int secondDigit_j = j % 10;
 
 			putchar('0' + firstDigit_i);
 			putchar('0' + secondDigit_i);
