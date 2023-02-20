@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, j;
+	int i, j, firstDigit_i, secondDigit_i;
 
 	for (i = 0; i <= 99; i++)
 	{
