@@ -18,7 +18,7 @@ int main(void)
 
 	if (n < 0)
 	{
-		last_digit = -n % 10;
+		last_digit = n % 10;
 		printf("-%d and is ", last_digit);
 	} else
 	{
