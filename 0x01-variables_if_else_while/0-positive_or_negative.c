@@ -8,22 +8,21 @@
  */
 
 int main(void)
+/* function to print randomm numbers*/
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf(" %d\n", n);
 	if (n > 0)
 	{
-		printf("positive");
+		printf("%d is positive", n);
 	} else if (n < 0)
 	{
-		printf("is negative");
+		printf("%d is negative", n);
 	} else
 	{
-		printf("zero");
+		printf("%d is zero", n);
 	}
-	printf("\n");
 	return (0);
 }
