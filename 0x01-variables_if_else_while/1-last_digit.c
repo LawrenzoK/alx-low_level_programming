@@ -20,7 +20,7 @@ int main(void)
 	{
 		n = -n;
 	}
-	int last_digit = n % 10;
+	last_digit = n % 10;
 
 	if (last_digit > 5)
 	{
