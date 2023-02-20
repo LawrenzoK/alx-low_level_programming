@@ -19,7 +19,7 @@ int main(void)
 	if (n < 0)
 	{
 		last_digit = n % 10;
-		printf("-%d and is ", last_digit);
+		printf("%d and is ", last_digit);
 	} else
 	{
 		last_digit = n % 10;
