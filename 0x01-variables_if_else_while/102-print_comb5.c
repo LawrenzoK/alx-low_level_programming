@@ -12,13 +12,21 @@ int main(void)
 	{
 		for (j = i; j <= 99; j++)
 		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
+			int firstDigit_i = i / 10;
+			int secondDigit_1 = i % 10;
+			int firstDigit_j = j / 10;
+			int secondFigit_j = j % 10;
+
+			putchar('0' + firstDigit_i);
+			putchar('0' + secondDigit_i);
 			putchar(' ');
-			putchar((j / 10) + '0');
-			putchar((j % 10) + '0');
-			putchar(',');
-			putchar(' ');
+			putchar('0' + firstDigit_j);
+			putchar('0' + secondDigit_j);
+			if (i != 99 || j != 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 
