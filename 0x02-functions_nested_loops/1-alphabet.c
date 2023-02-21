@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - print the alphabets in lowercases
+ * print_alphabet - print the alphabets in lowercases
  *
- * Return: 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -15,5 +14,4 @@ int main(void)
 		c++;
 	} while (c <= 'z');
 
-	return (0);
 }
