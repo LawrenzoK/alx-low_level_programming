@@ -1,20 +1,22 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
- *main -Entry point
- *Return: Always 0 (success)
+ * print_alphabet - print the alphabets in lowercases
  */
 void print_alphabet(void)
 {
 	char c = 'a';
-	do
-	{
+
+	do {
 		putchar(c);
 		c++;
-	}
-	while(c <= 'z');
+	} while (c <= 'z');
 }
 
+/**
+ * main - Entry point
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	print_alphabet();
