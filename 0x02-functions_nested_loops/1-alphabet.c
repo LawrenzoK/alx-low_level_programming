@@ -3,7 +3,6 @@
 
 /**
  * print_alphabet - print the alphabets in lowercases
- *
  */
 void print_alphabet(void)
 {
@@ -13,5 +12,7 @@ void print_alphabet(void)
 		putchar(c);
 		c++;
 	} while (c <= 'z');
+
+	putchar('\n');
 
 }
