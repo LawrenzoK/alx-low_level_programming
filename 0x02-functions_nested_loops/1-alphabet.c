@@ -13,8 +13,6 @@ void print_alphabet(void)
 	} while (c <= 'z');
 }
 
-void print_alphabet(void);
-
 /**
  * main - Entry point
  * Return: Always 0 (success)
