@@ -6,7 +6,7 @@
  * 
  * Return: 0 (success)
  */
-void printPutchar(void)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
@@ -18,4 +18,5 @@ void printPutchar(void)
 	putchar('r');
 	putchar('\n');
 
+	return (0);
 }
