@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printPutchar - prints a string using putchar
+ * main - prints a string using putchar
  */
 int main(void)
 {
@@ -14,4 +14,6 @@ int main(void)
 	putchar('a');
 	putchar('r');
 	putchar('\n');
+
+	return (0);
 }
