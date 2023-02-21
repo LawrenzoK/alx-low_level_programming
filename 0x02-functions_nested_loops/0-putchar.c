@@ -18,5 +18,4 @@ void printPutchar(void)
 	putchar('r');
 	putchar('\n');
 
-	return (0);
 }
