@@ -1,14 +1,7 @@
 #include <stdio.h>
 
-
 /**
- * printPutchar() - prints a string using putchar
- *
- *This function prints a string to standard output using putchar.
- *The string consists of the characters '_', 'p', 'u', 't', 'c', 'h', 'a',
- *and 'r', followed by a newline character.
- *
- * Return: None
+ * printPutchar - prints a string using putchar
  */
 void printPutchar(void)
 {
@@ -23,12 +16,11 @@ void printPutchar(void)
 	putchar('\n');
 }
 
-
 /**
- * main -Entry point
+ * main - Entry point
+ *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	printPutchar();
