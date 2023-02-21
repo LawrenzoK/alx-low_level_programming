@@ -3,7 +3,7 @@
 
 /**
  * main - prints a string using putchar
- * 
+ *
  * Return: 0 (success)
  */
 int main(void)
