@@ -3,7 +3,7 @@
 /**
  * printPutchar - prints a string using putchar
  */
-void printPutchar(void)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
