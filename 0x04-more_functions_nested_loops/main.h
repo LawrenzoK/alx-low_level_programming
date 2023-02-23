@@ -8,6 +8,7 @@ int _islower(int c);
 int _isupper(int c);
 int _isalpha(int c);
 int _isdigit(int c);
+int mul(int a, int b);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
