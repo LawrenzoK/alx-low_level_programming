@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_number - prints all natural numbers from 0 to 98
+ * print_numbers- prints all natural numbers from 0 to 98
  *
  * Return: void
  */
 
-void print_number(void)
+void print_numbers(void)
 {
 	int i;
 
@@ -14,4 +14,5 @@ void print_number(void)
 	{
 		printf("%d\n", i);
 	}
+	printf("\n");
 }
