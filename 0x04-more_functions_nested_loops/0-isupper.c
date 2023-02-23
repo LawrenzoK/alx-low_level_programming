@@ -1,17 +1,15 @@
 #include "main.h"
 /**
- * _isupper - prints a string using putchar
+ * _isupper - Check for upper case character
  *
- * @c: to be returned
- * Return: 0 (success)
+ * @c: the character to check
+ * Return: 1 if c is upper, 0 otherwise
  */
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
-	{
+	if ((c >= 'A' && c <= 'Z')
 		return (1);
-	}
+	else
 		return (0);
-	}
 }
 
