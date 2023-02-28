@@ -1,18 +1,19 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * puts2 - prints every other character of a string,
- * starting with the first character, followed by a new line.
  * @str: the string to print.
  */
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i += 2)
+	while (str[i] != '\0')
 	{
-		write(1, &str[i], 1);
+		putchar(str[i]);
+		i += 2;
 	}
-	write(1, "\n", 1);
+
+	putchar('\n');
 }
