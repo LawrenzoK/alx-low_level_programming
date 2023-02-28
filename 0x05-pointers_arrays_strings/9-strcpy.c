@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * strcpy - string copy
+ * _strcpy - string copy
  *
  * @dest: the destination buffer.
  * @src: the source string.
  * Return: the pointer to dest.
  */
 
-char *strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, const char *src)
 {
 	int i = 0;
 
