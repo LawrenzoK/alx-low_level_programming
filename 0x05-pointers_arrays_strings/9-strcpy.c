@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * strcpy - string copy
+ *
+ * @dest: the destination buffer.
+ * @src: the source string.
+ * Return: the pointer to dest.
+ */
+
+char *strcpy(char *dest, const char *src)
+{
+	int i = 0;
+
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	dest[i] = '\0';
+
+	return (dest);
+}
