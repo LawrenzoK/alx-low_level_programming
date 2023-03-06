@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strpbrk - searches a string
@@ -10,9 +11,11 @@
 
 char *_strpbrk(char *s, char *accept)
 {
+	char *a;
+
 	while (*s)
 	{
-		for (char *a = accept; *a; a++)
+		for (a = accept; *a; a++)
 		{
 			if (*s == *a)
 			{
