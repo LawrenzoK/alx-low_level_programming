@@ -12,15 +12,12 @@ int is_prime_number_helper(int n, int i)
 	if (n < 2 || n % i == 0)
 	{
 		return (0);
-	{
-		else if (i * i > n)
-		{
-			return (1);
-		}
-	else
-	{
-		return (is_prime_number_helper(n, i + 1));
 	}
+	if (i * i > n)
+	{
+		return (1);
+	}
+	return (is_prime_number_helper(n, i + 1));
 }
 
 /**
