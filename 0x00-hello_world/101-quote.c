@@ -9,8 +9,8 @@ int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int len = sizeof(str) - 1;
-	ssize_t ret = write(2, str, len);
+	ssize_t = write(2, str, len);
 
-	return (ret != len);
+	return (0);
 }
 
