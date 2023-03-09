@@ -4,7 +4,7 @@
  * is_prime_number_helper - helper function to check if a number is prime
  * @n: the number to check
  * @i: the current divisor to try
- * Return: 1 if the number is prime, 0 otherwise 
+ * Return: 1 if the number is prime, 0 otherwise
  */
 
 int is_prime_number_helper(int n, int i)
