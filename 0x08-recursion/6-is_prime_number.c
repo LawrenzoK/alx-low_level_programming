@@ -13,16 +13,15 @@ int is_prime_number_helper(int n, int i)
 	{
 		return (0);
 	{
-	else if (i * i > n)
-	{
-		return (1);
-	}
+		else if (i * i > n)
+		{
+			return (1);
+		}
 	else
 	{
 		return (is_prime_number_helper(n, i + 1));
 	}
 }
-
 
 /**
  * is_prime_number - checks if a number is prime
