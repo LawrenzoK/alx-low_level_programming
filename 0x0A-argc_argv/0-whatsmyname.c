@@ -1,18 +1,17 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_program_name - Entry point of the program
+ * main - Entry point of the program
  *
- * @name: The number of command-line arguments passed
+ * @argv: The number of command-line arguments passed
+ * @argv: Vector arguments
  *
  * Return: 0 on success
  */
-void print_program_name(char *name)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	while (*name != '\0')
-	{
-		_putchar(*name);
-		name++;
-	}
-	_putchar('\n');
+	printf("%s\n", *argv);
+
+	return (0);
 }
