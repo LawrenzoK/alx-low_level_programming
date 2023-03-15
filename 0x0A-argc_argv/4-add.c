@@ -13,10 +13,11 @@
 int check_num(char *str)
 {
 	unsigned int count;
+	count = 0;
 
-	for (i = 0; i < strlen(str); i++)
+	for (count = 0; count < strlen(str); count++)
 	{
-		if (!isdigit(str[i]))
+		if (!isdigit(str[count]))
 		{
 			return (0);
 		}

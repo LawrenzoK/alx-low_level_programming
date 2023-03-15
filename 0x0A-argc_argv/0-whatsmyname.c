@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * @argv: The number of command-line arguments passed
+ * @argc: The number of command-line arguments passed
  * @argv: Vector arguments
  *
  * Return: 0 on success
