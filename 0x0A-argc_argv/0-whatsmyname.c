@@ -1,17 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry point of the program
+ * print_program_name - Entry point of the program
  *
- * @argc: The number of command-line arguments passed
- * @argv: An array of pointers to the arguments
+ * @name: The number of command-line arguments passed
  *
  * Return: 0 on success
  */
-
-int main(int argc, char *argv[])
+void print_program_name(char *name)
 {
-	write(STDOUT_FILENO, argv[0], strlen(argv[0]));
-	write(STDOUT_FILENO, "\n", 1);
-	return (0);
+	while (*name != '\0')
+	{
+		_putchar(*name);
+		name++;
+	}
+	_putchar('\n');
 }
