@@ -13,6 +13,7 @@
 int check_num(char *str)
 {
 	unsigned int count;
+
 	count = 0;
 
 	for (count = 0; count < strlen(str); count++)
