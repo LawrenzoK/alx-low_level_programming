@@ -3,16 +3,16 @@
 
 /**
  * malloc_checked - allocate memory and terminate on failure
- * @size: number of bytes to allocate
+ * @b: number of bytes to allocate
  *
  * Return: pointer to the allocated memory
  */
 
-void *malloc_checked(uint32_t size)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
-	ptr = malloc(size);
+	ptr = malloc(b);
 
 	if (ptr == NULL)
 	{
