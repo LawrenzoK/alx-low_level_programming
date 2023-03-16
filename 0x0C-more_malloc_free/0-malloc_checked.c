@@ -10,16 +10,13 @@
 
 void *malloc_checked(uint32_t size)
 {
-	if (size > (SIZE_MAX / sizeof(void *)))
-	{
-		exit(EXIT_FAILURE);
-	}
+	void *ptr;
 
-	void *ptr = malloc(size);
+	ptr = malloc(size);
 
 	if (ptr == NULL)
 	{
-		exit(EXIT_FAILURE);
+		exit(98);
 	}
 
 	return (ptr);
